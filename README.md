@@ -8,6 +8,10 @@
 
 The shopping app is a flutter mobile application that presents a user-friendly interface where customers can browse through a variety of products effortlessly. Products are fetched from your WooCommerce backend API and Firestore database serves as the backbone for storing and managing user-specific data such as wishlist items and items added to the shopping cart, the app utilizes the Provider package for efficient state management across various components and uses Hive for saving the current user model in local data
 
+## **Disclaimer**
+
+This app is intended to use with specific WooCommerce site, others may have a json parsing error of the WooCommerce REST API data
+
 ## **Features**
 
 1. Browse through the different categories and add your favourite products to cart.
